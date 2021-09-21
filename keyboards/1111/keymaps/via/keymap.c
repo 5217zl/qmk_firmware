@@ -1,0 +1,13 @@
+#include "is3741.h"
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+
+	LAYOUT(
+		KC_PGUP, KC_PGDN, KC_C, KC_V, KC_ENT,
+		KC_LCTL, KC_LALT, KC_DEL, MO(1)),
+
+	LAYOUT(
+		KC_VOLU, KC_VOLD, KC_MPLY, KC_MSTP, KC_SPC,
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS)
+
+};
